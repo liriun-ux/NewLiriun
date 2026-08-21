@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@import "./default2.css";
+
+@import "./default1.css";
+
+@import "./animations.css";
+
+@import "./inicio.css";
+
+@import "./product.css";
+
+
+@import "./SectionAnimations.css";

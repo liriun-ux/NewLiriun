@@ -1,0 +1,66 @@
+
+
+
+
+
+@keyframes aparecerDesdeAbajo{
+  from {
+    transform: translateY(150%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes aparecerDesdeArriba {
+  from {
+    transform: translateY(-150%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.AparecerDesdeAbajo{
+  animation: aparecerDesdeAbajo 0.8s ease-in;
+}
+.AparecerDesdeArriba{
+  animation: aparecerDesdeArriba 0.8s ease-in;
+}
+
+
+@keyframes salirHaciaAbajo{
+  from {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(-150%);
+    opacity: 0;
+  }
+}
+@keyframes salirHaciaArriba {
+  from {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(150%);
+    opacity: 0;
+  }
+}
+.SalidaHaciaAbajo {
+  animation: salirHaciaAbajo 0.8s ease-in;
+}
+.SalidaHaciaArriva {
+  animation: salirHaciaArriba 0.8s ease-in;
+}
+

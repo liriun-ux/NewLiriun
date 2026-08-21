@@ -1,0 +1,189 @@
+
+.parentProd {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+
+.prdseo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;      /* centro vertical */
+    justify-content: center;  /* centro horizontal del conjunto */
+}
+
+.pdsdecrip,
+.pdsgl,
+.pdsia,
+.ExPages{
+    flex: 1;                  /* 1 | 2 | 3 ocupan el mismo espacio */
+    display: contents;
+    align-items: center;      /* contenido centrado verticalmente */
+    justify-content: center; /* contenido centrado horizontalmente */
+    text-align: center;
+}
+
+
+.fiiiow{
+    white-space: break-spaces;
+}
+.rtieou{
+    height: auto;
+}
+
+@media(max-width:1023.98px) {
+
+.parentProd {
+    display: flex;
+}
+.rtieou{
+    font-size: 0.8em;
+}
+.pdsdecrip{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin-top: 1em;
+}
+.ExPages{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+}
+
+
+.prdPages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;      /* centro vertical */
+    justify-content: center;  /* centro horizontal del conjunto */
+}
+
+@media(max-width:1023.98px) {
+    .prdPages{
+        flex-direction: column;
+        margin-inline: 0;
+        margin-bottom: 0;
+        width: 100%;
+        height: 100%;
+    }        
+}
+.PrPagesSec {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+.PrPagesBase{
+    display: flex;
+}
+.PrPageIcon{
+    flex: 1;                  /* 1 | 2 | 3 ocupan el mismo espacio */
+    display: contents;
+    align-items: center;      /* contenido centrado verticalmente */
+    justify-content: center; /* contenido centrado horizontalmente */
+    text-align: center;
+}
+.frtege{
+    text-align: center;
+    color: #ff960f;
+}
+
+@media(max-width:1023.98px) {
+    .PrPagesSec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Aprocess-section__grid-block {
+  position:relative;
+  -ms-flex-item-align:center;
+  align-self:center;
+  width:18.125em;
+  height:6.5625em;
+  -webkit-transition:border-color .45s;
+  transition:border-color .45s
+}
+
+
+@media(max-width:1023.98px) {
+.Aprocess-section__grid-block {
+
+    width: 97%;
+    height: auto;
+}
+.HePrt{
+    padding: 0.1em;
+    width: 100%;
+    max-width: 100%;
+}
+.rgeacww{
+    padding: 0.1em;
+}
+}
+
+
+
+.ProductsBaseSection{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.ChildProductUp{
+    width: 90%;
+    height: 50%;
+    display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.ChildProductDown{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.TitleProduct{
+    width: 80%;
+    margin-top: 0.5em;
+}
+.ListPagesProduct{
+    background: #4562;
+}
+
+@media(max-width:1023.98px) {
+.ProductsBaseSection{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+.SizeTitleMovilCaptionUp{
+    font-size: 1.0em;
+    line-height: 1.1em;
+}

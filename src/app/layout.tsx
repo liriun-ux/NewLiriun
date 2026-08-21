@@ -1,6 +1,40 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "@/style/globals.css";
+import localFont from "next/font/local";
+import ViewportUnits from "@/utils/resize";
+import Footer from "@/component/footer";
+import SidebarEmpty from "@/component/menu_sidebar";
+import SectionSlider from "@/utils/sectionsChange";
+import PageLoader from "@/utils/preLoader";
+import CustomScroller from "@/utils/scrollForm";
+import FallingSquares from "@/utils/FAllingScuares";
+import HeaderFont from "@/utils/title_page";
+
+const bonn = localFont({
+  src: [
+    {
+      path: "../fonts/BonnBF-vf.woff2",
+      weight: "100 900",
+      style: "normal",
+    },
+  ],
+  variable: "--font-bonn",
+});
+
+const bonnBold = localFont({
+  src: "../fonts/BonnBF-Bold.woff2",
+  weight: "700",
+  style: "normal",
+  variable: "--font-bonn-bold",
+});
+
+const configCondensed = localFont({
+  src: "../fonts/ConfigCondensed-vf.woff2",
+  weight: "100 900",
+  style: "normal",
+  variable: "--font-config-condensed",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,11 +53,56 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
+      <>
+
+      <ViewportUnits/>
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={` h-full antialiased ${bonn.variable} ${bonnBold.variable} ${configCondensed.variable} default`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className={`${bonn.variable} ${bonnBold.variable} ${configCondensed.variable} min-h-full flex flex-col`}>
+        <FallingSquares/>
+
+
+      <header className="header default__header">
+      <div className="header__container"><a href="/" className="header__logo nuxt-link-active" style={{
+    translate: "none",
+    rotate: "none",
+    scale: "none",
+    transform: "translate(0px)",
+  }}>  <img
+    src="/images/liriunUx.png"
+    alt="logo"
+    className="header__icon header__icon--logo"
+  /></a>
+
+  <div className="header__title hidden-mobile hidden-tablet headerNava">
+
+  <HeaderFont/>
+
+
+</div></div>
+      </header>
+      <div className="default__body">
+        <div className="sidebar-empty sidebar-empty--left sidebar-empty--bordered sidebar-empty--bordered--right hidden-mobile hidden-tablet"></div>
+        <div className="index-page">
+            <div className="index-page__scroll">
+                <div className="transition-section">
+                    <div className="transition-section__slider">
+                    <SectionSlider/>
+                    </div>
+                </div>                
+                <div className="index-page__footer-wrapper">
+                <Footer/>
+                </div>
+                
+            </div>
+            <CustomScroller/>
+        </div>
+        <SidebarEmpty/>
+      </div>
+      </body>
     </html>
+    </>
   );
 }

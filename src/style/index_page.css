@@ -1,0 +1,141 @@
+.index-page {
+  padding-top:5em;
+  --track:hsla(0,0%,100%,0.15);
+  --thumb:#ffff20;
+  --border:hsla(0,0%,100%,0.15);
+  position:relative;
+  width:100%;
+  min-height:100px;
+  min-height:100vh;
+  /* overflow:hidden; */
+  /* -webkit-overflow-scrolling:touch */
+}
+[data-theme=light] .index-page {
+  --track:rgba(0,0,0,0.15);
+  --thumb:#ffff20
+}
+.index-page::-webkit-scrollbar {
+  display:block;
+  width:1px
+}
+.index-page::-webkit-scrollbar-track {
+  position:absolute;
+  right:5em;
+  width:1px;
+  background:var(--track)
+}
+.index-page::-webkit-scrollbar-thumb {
+  width:1px;
+  background:var(--thumb)
+}
+[data-theme=light] .index-page {
+  --border:rgba(0,0,0,0.15)
+}
+@media(max-width:1023.98px) {
+  .index-page {
+    padding:0
+  }
+}
+.index-page__footer-wrapper {
+  position:absolute;
+  bottom:0;
+  z-index:10;
+  width:100%
+}
+@media(max-width:1023.98px) {
+  .index-page__footer-wrapper {
+    position:relative;
+    margin-top:0
+  }
+}
+.index-page__awwwards {
+  position:fixed;
+  z-index:30;
+  -webkit-transform:translateY(-50%);
+  transform:translateY(-50%);
+  top:50%;
+  left:0;
+  width:3.3125em;
+  height:10.6875em
+}
+@media(max-width:1023.98px) {
+  .index-page__awwwards {
+    position:absolute;
+    top:16.5625em;
+    height:6.375em;
+    width:2em
+  }
+}
+.index-page__awwards-icon,
+.index-page__awwwards-icon {
+  width:100%;
+  height:100%
+}
+.index-page--popup {
+  position:fixed
+}
+.index-page__footer {
+  padding-right:5em;
+  padding-left:5em
+}
+.index-page__footer--hidden {
+  display:none
+}
+@media(max-width:1023.98px) {
+  .index-page__footer {
+    position:relative
+  }
+}
+@media(max-width:1279.98px) {
+  .index-page__footer {
+    padding-right:1em;
+    padding-left:1em
+  }
+}
+.index-page__scroller {
+  position:fixed;
+  top:0;
+  right:5em;
+  background-color:var(--border);
+  height:100px;
+  height:calc(var(--vh)*100)
+}
+.index-page__scroll {
+  min-height:100%;
+  right:5em;
+  left:5em
+}
+
+
+.scroller {
+  width:1px;
+  height:100%
+}
+.scroller__thumb {
+  width:1px;
+  background:#ffff20;
+  -webkit-transition:height .2s ease;
+  transition:height .2s ease
+}
+.scrollbar {
+  width:1px;
+  position:fixed;
+  top:5em;
+  right:5em;
+  background-color:var(--border);
+  bottom:0
+}
+.scrollbar__track {
+  width:1px;
+  position:fixed;
+  height:20px;
+  height:calc(var(--vh)*100 - 80px)
+}
+.scrollbar__thumb {
+  width:100%;
+  background-color:#ffff20;
+  position:absolute;
+  left:0;
+  -webkit-transition:top .5s ease-out;
+  transition:top .5s ease-out
+}

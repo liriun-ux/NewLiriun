@@ -28,10 +28,8 @@ export default function HomeRight(){
               }}
             >
 Sitios web en oferta a solo 750 Bs
-Sitios web en oferta a solo 750 Bs
-Sitios web en oferta a solo 750 Bs
 hasta el 20 de septiembre
-aprovecha esta gran oferta
+aprovecha esta gran oportunidad.
             </span>
           </span>
         </div>
@@ -95,7 +93,7 @@ aprovecha esta gran oferta
                 opacity: 1,
               }}
             >
-              aprovecha esta gran oferta.
+              aprovecha esta gran oportunidad.
             </span>
           </span>
         </div>
@@ -197,7 +195,7 @@ listo para utillizar.
         >
           <div className="icon-info__icon-wrapper">
             <img
-              src="/images/about/crm.svg"
+              src="/images/about/art.svg"
               alt="crm"
               loading="eager"
               className="about-types__icon about-types__icon--crm"
@@ -205,7 +203,7 @@ listo para utillizar.
           </div>
 
           <div className="icon-info__content">
-            <span className="icon-info__font">CRM/BPM</span>
+            <span className="icon-info__font">Desing</span>
           </div>
         </div>
       </div>
@@ -234,7 +232,7 @@ listo para utillizar.
           </div>
 
           <div className="icon-info__content">
-            <span className="icon-info__font">E-Commerce</span>
+            <span className="icon-info__font">Sections</span>
           </div>
         </div>
       </div>
@@ -263,7 +261,7 @@ listo para utillizar.
           </div>
 
           <div className="icon-info__content">
-            <span className="icon-info__font">Mobile Apps</span>
+            <span className="icon-info__font">Mobile Web</span>
           </div>
         </div>
       </div>
@@ -292,7 +290,7 @@ listo para utillizar.
           </div>
 
           <div className="icon-info__content">
-            <span className="icon-info__font">Web Apps</span>
+            <span className="icon-info__font">Web Desktop</span>
           </div>
         </div>
       </div>
@@ -344,7 +342,7 @@ listo para utillizar.
         >
           <div className="icon-info__icon-wrapper">
             <img
-              src="/images/about/chatbot.svg"
+              src="/images/about/maps.svg"
               alt="chatbot"
               loading="eager"
               className="about-types__icon about-types__icon--chatbot"
@@ -353,7 +351,7 @@ listo para utillizar.
 
           <div className="icon-info__content">
             <span className="icon-info__font">
-              Social Apps <br /> &amp; Bots
+              Mapas <br /> &amp; UBICACIÓN
             </span>
           </div>
         </div>
@@ -375,15 +373,15 @@ listo para utillizar.
         >
           <div className="icon-info__icon-wrapper">
             <img
-              src="/images/about/games.svg"
-              alt="games"
+              src="/images/about/camisa.svg"
+              alt="camisa"
               loading="eager"
               className="about-types__icon about-types__icon--games"
             />
           </div>
 
           <div className="icon-info__content">
-            <span className="icon-info__font">Games</span>
+            <span className="icon-info__font">Productos</span>
           </div>
         </div>
       </div>
@@ -404,7 +402,7 @@ listo para utillizar.
         >
           <div className="icon-info__icon-wrapper">
             <img
-              src="/images/about/ar.svg"
+              src="/images/about/ia_icon_.svg"
               alt="ar"
               loading="eager"
               className="about-types__icon about-types__icon--ar"
@@ -412,7 +410,7 @@ listo para utillizar.
           </div>
 
           <div className="icon-info__content">
-            <span className="icon-info__font">AR/VR/WebGL</span>
+            <span className="icon-info__font">Optimizado para IA</span>
           </div>
         </div>
       </div>

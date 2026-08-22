@@ -38,14 +38,17 @@ export default function HomeLeft(){
       <div className="main-section__mask main-section__mask--text">
         <p className="main-section__text hidden-tablet hidden-mobile">
           <span className="animated main-section__text-item">
-            Diseño y desarrollo web para negocios en 
+            Diseño y desarrollo web para negocios en<br /> 
         </span>{" "}
           <span className="animated main-section__text-item">
-            Bolivia que quieren dejar de perder 
+            Bolivia que quieren dejar de perder <br />
 
           </span>{" "}
           <span className="animated main-section__text-item">
-clientes por una página fea o lenta.
+clientes por no ser encontrados en 
+          </span>
+          <span className="animated main-section__text-item">
+<br /> google ni agentes de IA.
           </span>
         </p>
 

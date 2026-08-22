@@ -51,6 +51,8 @@ export default function CarouselDiseno() {
     return () => clearInterval(interval);
   }, []);
 
+
+
   return (
     <div className="carouselDiseno">
 

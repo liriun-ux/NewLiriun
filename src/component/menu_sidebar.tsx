@@ -10,8 +10,8 @@ export default function SidebarEmpty() {
   const sections = [
     "#inicio",
     "#producto",
-    "#proceso",
     "#diseno",
+    "#proceso",
     "#contactos",
   ];
 
@@ -97,6 +97,17 @@ useEffect(() => {
                 </span>
               </a>
             </li>
+<li className={`menu-list__item menu-item ${isActive("#diseno")}`}>
+              <a href="/#diseno" className="menu-list__link" onClick={() => setIsOpen(!isOpen)}>
+                <span className="menu-list__icon-wrapper">
+                  <span className="menu-list__icon menu-list__icon--tech" />
+                </span>
+
+                <span className="menu-list__title">
+                  <span className="menu-list__font">diseño</span>
+                </span>
+              </a>
+            </li>
 
       <li className={`menu-list__item menu-item ${isActive("#proceso")}`}>
               <a href="/#proceso" className="menu-list__link" onClick={() => setIsOpen(!isOpen)}>
@@ -110,17 +121,6 @@ useEffect(() => {
               </a>
             </li>
 
-<li className={`menu-list__item menu-item ${isActive("#diseno")}`}>
-              <a href="/#diseno" className="menu-list__link" onClick={() => setIsOpen(!isOpen)}>
-                <span className="menu-list__icon-wrapper">
-                  <span className="menu-list__icon menu-list__icon--tech" />
-                </span>
-
-                <span className="menu-list__title">
-                  <span className="menu-list__font">diseño</span>
-                </span>
-              </a>
-            </li>
 
 <li className={`menu-list__item menu-item ${isActive("#contactos")}`}>
               <a href="/#contactos" className="menu-list__link" onClick={() => setIsOpen(!isOpen)}>

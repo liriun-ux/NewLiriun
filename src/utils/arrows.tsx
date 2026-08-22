@@ -6,8 +6,8 @@ import ArrowDown from "@/component/arrow";
 const sections = [
   "#inicio",
   "#producto",
-  "#proceso",
   "#diseno",
+  "#proceso",
   "#contactos",
 ];
 

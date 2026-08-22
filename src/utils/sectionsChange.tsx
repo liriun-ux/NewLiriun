@@ -18,12 +18,12 @@ const sections = [
     component: <SectionProduct />,
   },
   {
-    id: "proceso",
-    component: <SectionProcess />,
-  },
-  {
     id: "diseno",
     component: <SectionDiseno />,
+  },
+  {
+    id: "proceso",
+    component: <SectionProcess />,
   },
   {
     id: "contactos",

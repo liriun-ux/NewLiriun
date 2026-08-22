@@ -20,13 +20,13 @@ export default function CustomScroller() {
           setProgress(0.25);
           break;
 
-        case "#proceso":
+        case "#diseno":
           setProgress(0.50);
           break;
-
-        case "#diseno":
+        case "#proceso":
           setProgress(0.75);
           break;
+
 
         case "#contactos":
           setProgress(1);

@@ -1,0 +1,9 @@
+
+
+.SecHidden{
+
+    display: none;
+}
+.SecCurrent{
+    display: block;
+}

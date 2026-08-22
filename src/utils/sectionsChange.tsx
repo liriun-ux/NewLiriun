@@ -245,21 +245,41 @@ useEffect(() => {
   return (
     <div className="slide-section slide-section-current slideBase">
 
+{sections.map((item) => (
+  <section key={item.id} className={`section-animation slide-section 
+       ${previous === null? 
+           (item.id === sections[currentHash.current].id ?  (  prevHash.current > currentHash.current ? "SecCurrent AparecerDesdeArriba":"SecCurrent AparecerDesdeAbajo"  ):("SecHidden"))               
+               :       
+            ((item.id === sections[previous].id ? ( previous > currentHash.current ? "SalidaHaciaArriva":" SalidaHaciaAbajo " ):"SecHidden"))}
+      `}>
+    {item.component}
+  </section>
+))}
 
-      {/* Sección anterior */}
-      {previous !== null && (
-        <div className={`section-animation slide-section ${previous > currentHash.current ? "SalidaHaciaArriva":"SalidaHaciaAbajo"}`}>
-          {sections[previous].component}
-        </div>
-      )}
-
-      {/* Sección actual */}
-      {previous === null && (
-        <div className={`section-animation slide-section ${ prevHash.current > currentHash.current ? "AparecerDesdeArriba":"AparecerDesdeAbajo" }`}>
-          {sections[currentHash.current].component}
-        </div>
-      )}
 
     </div>
   );
 }
+
+
+
+
+
+//      ${previous === null ? ("SecHidden"):( previous > currentHash.current ? "SalidaHaciaArriva":" SalidaHaciaAbajo " )}
+
+
+//      ${item.id === sections[currentHash.current].id ?  (  prevHash.current > currentHash.current ? "SecCurrent AparecerDesdeArriba":"SecCurrent AparecerDesdeAbajo"  ):( "") }
+//      ${previous === null ? "SecHidden": (item.id === sections[previous].id ? "bg-red-400":"SecHidden")}
+//      {/* Sección anterior */}
+//      {previous !== null && (
+//        <div className={`section-animation slide-section ${previous > currentHash.current ? "SalidaHaciaArriva":"SalidaHaciaAbajo"}`}>
+//          {sections[previous].component}
+//        </div>
+//      )}
+//
+//      {/* Sección actual */}
+//      {previous === null && (
+//        <div className={`section-animation slide-section ${ prevHash.current > currentHash.current ? "AparecerDesdeArriba":"AparecerDesdeAbajo" }`}>
+//          {sections[currentHash.current].component}
+//        </div>
+//      )}

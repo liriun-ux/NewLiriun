@@ -7828,7 +7828,7 @@ div[data-lastpass-icon-root] {
 }
 @media(max-width:1023.98px) {
   .process-step__vertical-border {
-    background-color:var(--border-accent)
+    /* background-color:var(--border-accent) */
   }
 }
 .process-step__vertical-inner-border {
@@ -7843,7 +7843,7 @@ div[data-lastpass-icon-root] {
 }
 @media(max-width:1023.98px) {
   .process-step__horizontal-border {
-    background-color:var(--border-accent)
+    /* background-color:var(--border-accent) */
   }
 }
 .process-step__horizontal-inner-border {

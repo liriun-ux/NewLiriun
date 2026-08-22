@@ -51,7 +51,7 @@
 .INLF {
     display: grid;
 
-    justify-content: start; /* izquierda */
+    justify-content: center; /* izquierda */
     align-items: center;    /* centro vertical */
 
 

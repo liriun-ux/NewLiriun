@@ -8,19 +8,19 @@ export default function Prdseo(){
         <div className="pdsdecrip">
             <ProcessCaption
             texto1="Tu negocio necesita ser encontrado antes de poder ser elegido."
-            texto2="Una presencia digital sólida permite que las personas descubran quién eres, qué ofreces y cómo contactarte, incluso cuando todavía no cuentas con un sitio web."
+            texto2="Una presencia digital sólida permite que las personas descubran quién eres, qué ofreces y cómo contactarte, un sitio web profecional muestra todo de tu negocio para los usuarios."
             />
         </div>
         <div className="pdsgl">
             <ProcessCaption
-            texto1="Hacemos que tu sitio sea fácil de encontrar, entender y posicionar."
-            texto2="Optimizamos tu presencia para motores como Google y DuckDuckGo, mejorando la forma en que tus páginas, servicios y productos aparecen frente a las personas que los están buscando."
+                        texto1="Tú sitio web con proposito"
+                        texto2="Tu sitio web no solo es funcional, tiene un propósito. Diseñamos cada sección para representar la identidad de tu negocio, destacar tus productos y servicios, y captar la atención de tus clientes."
             />
         </div>
         <div className="pdsia">
             <ProcessCaption
-            texto1="Tu negocio también debe ser visible para la nueva generación de búsqueda."
-            texto2="Optimizamos la información y estructura de tu presencia digital para que los sistemas de inteligencia artificial puedan comprenderla, considerarla y recomendarla cuando alguien busca productos o servicios como los tuyos."
+                        texto1="Optimizado para navegadores GOOGLE y agentes de IA"
+                        texto2="Estructuramos tu sitio web para que Google y los agentes de IA puedan comprender tu negocio, tus servicios y tu información, ayudando a que más personas puedan encontrarte y elegirte."
             />
         </div>
     </div>

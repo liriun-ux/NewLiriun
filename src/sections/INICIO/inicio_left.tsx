@@ -45,10 +45,10 @@ export default function HomeLeft(){
 
           </span>{" "}
           <span className="animated main-section__text-item">
-clientes por no ser encontrados en 
+clientes por no ser encontrados en <br />
           </span>
           <span className="animated main-section__text-item">
-<br /> google ni agentes de IA.
+ google ni agentes de IA.
           </span>
         </p>
 

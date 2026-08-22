@@ -6106,7 +6106,7 @@ div[data-lastpass-icon-root] {
 }
 @media(max-width:1023.98px) {
     .transition-section {
-        height:90.0%;
+        height:91.0%;
     }
 
 }
@@ -6225,7 +6225,7 @@ div[data-lastpass-icon-root] {
   bottom:0;
   z-index:10;
   width:100%;
-  height:10%;
+  height:9%;
   background: #0004;
   backdrop-filter: blur(10px);
   --webkit-backdrop-filter: blur(10px);

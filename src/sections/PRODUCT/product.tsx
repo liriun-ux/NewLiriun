@@ -6,28 +6,33 @@ import ProcessCaption from "./prdtitle"
 import MProcessCaption from "./TitleMovil"
 
 export default function SectionProduct(){
-    const Pages=[
-        {
-            title:"inicio",
-            description:"loren awdo adwo daw oawd oawd aowduawdn idabw  awdy"
-        },
-        {
-            title:"Productos o Servicios",
-            description:"loren awdo adwo daw oawd oawd aowduawdn idabw  awdy"
-        },
-        {
-            title:"Proseso de trabajo",
-            description:"loren awdo adwo daw oawd oawd aowduawdn idabw  awdy"
-        },
-        {
-            title:"Seccion de historia y presentacion",
-            description:"loren awdo adwo daw oawd oawd aowduawdn idabw  awdy"
-        },
-        {
-            title:"Contactos",
-            description:"loren awdo adwo daw oawd oawd aowduawdn idabw  awdy"
-        },
-    ]
+const Pages = [
+    {
+        title: "inicio",
+        description:
+            "Comunica quién eres, qué haces y qué diferencia a tu negocio desde el primer momento."
+    },
+    {
+        title: "Productos",
+        description:
+            "Muestra tus productos y servicios de forma clara y atractiva."
+    },
+    {
+        title: "Proceso de trabajo",
+        description:
+            "Explica cómo trabajas y qué puede esperar el cliente de una forma clara y profesional."
+    },
+    {
+        title: "Contactos",
+        description:
+            "Haz que tus clientes puedan contactarte fácilmente y dar el siguiente paso."
+    },
+    {
+        title: "Adaptado a tu Negocio",
+        description:
+            "Añadimos las secciones que tu negocio necesita. "
+    },
+];
     return(
         <div className="about-section slide-page" >
             <div className="parentProd DisenoRhiden">
@@ -66,8 +71,8 @@ export default function SectionProduct(){
                 <div className="ChildProductUp">
                     <div className="pdsgl">
                         <MProcessCaption
-                        texto1="Hacemos que tu sitio sea fácil de encontrar, entender y posicionar."
-                        texto2="Optimizamos tu presencia para motores como Google y DuckDuckGo, mejorando la forma en que tus páginas, servicios y productos aparecen frente a las personas que los están buscando."
+                        texto1="Tú sitio web con proposito"
+                        texto2="No solo es funcional, tiene un propósito. Diseñamos cada sección para representar la identidad de tu negocio, destacar tus productos y servicios, y captar la atención de tus clientes."
                         />
                     </div>
                   <div
@@ -83,8 +88,8 @@ export default function SectionProduct(){
                   />
                     <div className="pdsgl">
                         <MProcessCaption
-                        texto1="Hacemos que tu sitio sea fácil de encontrar, entender y posicionar."
-                        texto2="Optimizamos tu presencia para motores como Google y DuckDuckGo, mejorando la forma en que tus páginas, servicios y productos aparecen frente a las personas que los están buscando."
+                        texto1="Optimizado para navegadores GOOGLE y agentes de IA"
+                        texto2="Tu negocio necesita ser encontrado antes de poder ser elegido. Estructuramos tu sitio web para que Google y los agentes de IA puedan comprender tu negocio, tus servicios y tu información, ayudando a que más personas puedan encontrarte y elegirte."
                         />
                     </div>
 
@@ -107,10 +112,7 @@ export default function SectionProduct(){
                         <blockquote className="contact-popup__blockquote title">
                           <span className="title__border title__border--accent"></span>
                           <span className="title__font title__font--title-sm titleContact whitespace-normal! ">
-                            We&nbsp;are interested in&nbsp;effective 
-                            We&nbsp;are interested in&nbsp;effective 
-                            We&nbsp;are interested in&nbsp;effective 
-                            and long-term cooperation.
+Tu sitio web debe guiar a tus clientes hasta lo que necesitan.
                           </span>
                         </blockquote>
                     </div>

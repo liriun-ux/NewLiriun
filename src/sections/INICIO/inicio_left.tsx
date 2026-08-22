@@ -3,8 +3,6 @@
 export default function HomeLeft(){
     return(
         <div className="main-section__wrapper">
-  <div className="main-section__cube hidden-desktop"></div>
-  <div className="main-section__background hidden-desktop"></div>
 
   <div className="main-section__column">
     <div className="main-section__titles">
@@ -51,15 +49,10 @@ clientes por una página fea o lenta.
           </span>
         </p>
 
-        <p className="main-section__text hidden-desktop">
-          Over 10 years of experience building IT products for
-          enterprises, private entrepreneurs, digital marketing agencies,
-          and startups
-        </p>
       </div>
     </div>
 
-    <ul className="main-section__awwards">
+    <ul className="main-section__awwards DisenoRhiden">
       <li
         className="main-section__awward main-section__awward--fwa"
         style={{

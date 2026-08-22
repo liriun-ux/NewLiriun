@@ -4,6 +4,8 @@
   height: 100%;
 }
 
+
+
 .childINICIO {
   width: 50%;
 }
@@ -14,7 +16,6 @@
 
     align-content: center;
 }
-
 
 .contentINO {
   display: flex;
@@ -56,12 +57,58 @@
 
 }
 
+.BLINRFA{
+    margin-top: 1vw;
+    text-align: center;
+}
 .BLINRF{
     margin-top: 1vw;
     text-align: center;
 }
 
 
+@media(max-width:1023.98px) {
+
+    .BLINRFA{
+        margin-top: 1vw;
+        text-align: left;
+        font-size: 0.85em;
+        color: #aaa;
+        text-transform: none;
+        line-height: 0.80sm;
+        margin-left: 0.2em;
+    }
+    .BLINRF{
+        margin-top: 1vw;
+        text-align: center;
+        font-size: 0.7em;
+        margin-inline: 1.0em;
+    }
+    .parentINICIO{
+        flex-direction: column;
+    }
+    .INRG{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .INLF{
+        width: 95%;
+        height: 50%;
+        display: flex;
+        align-items: end;
+        margin-bottom: 1em;
+        margin-inline: 2.5%;
+    }
+    .TextPageInicio{
+        line-height: 0.1em;
+        
+        font-size: 0.8em;
+        letter-spacing: 0.02em;
+
+    }
+}
 
 .header-font-wrapper {
   position: relative;
@@ -154,14 +201,14 @@
     }
     .childDisenoR {
       width: 100%;
-        height: 77%;
+        height: 78%;
   margin-inline: 0vw;
   align-items: baseline;
     }
     
     .childDisenoL {
       width: 95%;
-      height: 23%;
+      height: 22%;
       margin-inline: 2.5%;
     display: flex;
     justify-content: end;
@@ -237,11 +284,15 @@
 }
 
 @media(max-width:1023.98px) {
+    .carouselDiseno {
+        height: 100%;
+    }
 .carouselDiseno__image {
     margin-bottom: 1.0em;
 }
 .carouselDiseno__description {
     margin-bottom: 0.5em;
+    width: 95%;
 }
 }
 
@@ -251,6 +302,10 @@
   aspect-ratio: 16 / 9;
   object-fit: cover;
   display: block;
+  max-height: 100%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
 }
 
 
@@ -292,6 +347,9 @@
 
     .dsncapt{
         padding-inline: 0 !important;
+    }
+    .carouselDiseno__item {
+        padding: 0.45em 0.75em;
     }
 }
 .carouselDiseno__itemCts {
@@ -491,4 +549,12 @@ display: flex;
   .last_foot_text {
     display: none;
   }
+
+.BLOMOVIL{
+    padding: 0.5em;
+    margin-left: 1em;
 }
+}
+
+
+

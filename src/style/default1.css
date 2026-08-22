@@ -7802,7 +7802,7 @@ div[data-lastpass-icon-root] {
   letter-spacing:.02em;
   font-weight:400;
   font-size:.875em;
-  line-height:1.2142857143em;
+  line-height:0.2142857143em;
   color:var(--text-lighter)
 }
 .process-step__font--bold {

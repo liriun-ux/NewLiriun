@@ -4,8 +4,8 @@ export default function HomeRight(){
     return(
 
               <div className="childINICIO INRG">
-<div className="about-types__content">
-  <blockquote className="about-types__subtitle about-types__subtitle--mb title title--accent">
+<div className="about-types__content m-0!">
+  <blockquote className="about-types__subtitle about-types__subtitle--mb title title--accent BLOMOVIL">
     <span
       className="title__border title__border--accent"
       style={{
@@ -17,13 +17,35 @@ export default function HomeRight(){
         opacity: 1,
       }}
     />
-
-    <div className="about-types__quote">
+    <div className="about-types__quote TextPageInicio hidden-desktop ">
       <div className="about-types__prime-text-wrapper hidden-mobile hidden-tablet">
         <div className="about-types__prime-text-mask">
           <span className="title__font title__font--subtitle about-types__prime-text">
             <span
-              className="animated about-types__prime-text-item"
+              className="animated about-types__prime-text-item whitespace-normal! TextPageInicio"
+              style={{
+                opacity: 1,
+              }}
+            >
+Sitios web en oferta a solo 750 Bs
+Sitios web en oferta a solo 750 Bs
+Sitios web en oferta a solo 750 Bs
+hasta el 20 de septiembre
+aprovecha esta gran oferta
+            </span>
+          </span>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div className="about-types__quote DisenoRhiden">
+      <div className="about-types__prime-text-wrapper hidden-mobile hidden-tablet">
+        <div className="about-types__prime-text-mask">
+          <span className="title__font title__font--subtitle about-types__prime-text">
+            <span
+              className="animated about-types__prime-text-item TextPageInicio"
               style={{
                 translate: "none",
                 rotate: "none",
@@ -43,7 +65,7 @@ export default function HomeRight(){
         <div className="about-types__prime-text-mask">
           <span className="title__font title__font--subtitle about-types__prime-text">
             <span
-              className="animated about-types__prime-text-item"
+              className="animated about-types__prime-text-item TextPageInicio"
               style={{
                 translate: "none",
                 rotate: "none",
@@ -63,7 +85,7 @@ export default function HomeRight(){
         <div className="about-types__prime-text-mask">
           <span className="title__font title__font--subtitle about-types__prime-text">
             <span
-              className="animated about-types__prime-text-item"
+              className="animated about-types__prime-text-item TextPageInicio"
               style={{
                 translate: "none",
                 rotate: "none",
@@ -79,14 +101,10 @@ export default function HomeRight(){
         </div>
       </div>
 
-      <span className="title__font title__font--subtitle about-types__prime-text hidden-desktop">
-        Our advantage is&nbsp;— the flexibility of&nbsp;approaches to&nbsp;solving tasks,
-        excellent quality of&nbsp;work at&nbsp;high rates.
-      </span>
     </div>
   </blockquote>
 
-  <blockquote className="about-types__subtitle about-types__subtitle--sm title title--small">
+  <blockquote className="about-types__subtitle about-types__subtitle--sm title title--small BLOMOVIL">
     <span
       className="title__border"
       style={{
@@ -148,11 +166,6 @@ listo para utillizar.
 
       <br className="hidden-mobile hidden-tablet" />
 
-      <span className="hidden-desktop">
-        Our skills apply to&nbsp;all kinds of&nbsp;development of&nbsp;web
-        and&nbsp;mobile applications, games, and&nbsp;interactive
-        social&nbsp;apps.
-      </span>
     </span>
   </blockquote>
 
@@ -168,7 +181,7 @@ listo para utillizar.
     }}
   />
 
-  <ul className="about-types__icons">
+  <ul className="about-types__icons DisenoRhiden">
     <li className="about-types__icon-wrapper">
       <div className="about-types__icon-mask">
         <div

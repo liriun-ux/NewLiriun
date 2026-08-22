@@ -1,7 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import DisenoCaption from "./desenoCaption";
+
+
 const items = [
   {
     name: "Diseño Web",
@@ -53,10 +56,14 @@ export default function CarouselDiseno() {
 
       {/* Imagen */}
       <div className="carouselDiseno__image">
-        <img
-          src={items[active].image}
-          alt={items[active].name}
-        />
+<Image
+  src={items[active].image}
+  alt={items[active].name}
+  fill
+  sizes="(max-width: 768px) 100vw, 50vw"
+  priority={active === 0}
+  className="relative!"
+/>
       </div>
 
       {/* Nombres */}

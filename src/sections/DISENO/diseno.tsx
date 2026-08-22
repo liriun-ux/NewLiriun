@@ -41,7 +41,7 @@ export default function SectionDiseno(){
                   />
 <blockquote className="" style={{marginTop:"1vh", marginInline:"2vw"}}>
     <div    className="title__font title__font--muted title__font--description-sm frtege ">
-    cada sitio web se hace pensando en tu negocio para que muestre tu producto y resalte, posicionando en los buscadores de GOOGLE y agentes de Inteligencia Artificial.
+Cada sitio web es diseñado pensando en las necesidades de cada cliente, buscando resaltar su negocio y diferenciándolo de los demás.
     </div>
 </blockquote>
 

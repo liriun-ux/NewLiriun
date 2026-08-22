@@ -5,8 +5,8 @@ import PProcessStep from "./ProcesPaso"
 export default function PrdStep(){
     return(
         <div className="m-10 prdPages">
-            <div className="pdsdecrip ">
-                <ProcessCaption className="DisenoRhiden" 
+            <div className="pdsdecrip DisenoRhiden">
+                <ProcessCaption className="" 
                 texto1="Tu negocio necesita ser encontrado antes de poder ser elegido."
                 texto2="Una presencia digital sólida permite que las personas descubran quién eres, qué ofreces y cómo contactarte, incluso cuando todavía no cuentas con un sitio web."
                 />

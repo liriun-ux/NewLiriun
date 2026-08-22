@@ -67,7 +67,7 @@
         flex-direction: column;
         margin-inline: 0;
         margin-bottom: 0;
-        width: 100%;
+        width: 95%;
         height: 100%;
     }        
 }
@@ -89,15 +89,20 @@
 }
 .frtege{
     text-align: center;
-    color: #ff960f;
+    color: #ffffbb;
 }
 
 @media(max-width:1023.98px) {
     .PrPagesSec{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.1em;
+    gap: 0.8em;
     }
+.frtege{
+    text-align: center;
+    color: #ffffbb;
+    font-size: 0.8em;
+}
 }
 
 

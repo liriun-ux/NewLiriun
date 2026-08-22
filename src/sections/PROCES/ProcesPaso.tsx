@@ -27,7 +27,11 @@ export default function PProcessStep({
       </div>
 
       <div className="process-step__description HePrt">
-        <span className="process-step__font process-step__font--description">
+    <div    className="title__font title__font--muted title__font--description-sm BLINRFA hidden-desktop">
+        {description}
+    </div>
+
+        <span className="process-step__font process-step__font--description DisenoRhiden">
           {description}
         </span>
       </div>

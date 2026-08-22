@@ -14,8 +14,8 @@ export default function SectionContacto(){
               <div className="childContactL ">
                 <div className="childLBase">
                     <DisenoCaption
-                    texto1="Tu negocio necesita ser encontrado antes de poder ser elegido."
-                    texto2="Una presencia digital sólida permite que las personas descubran quién eres, qué ofreces y cómo contactarte, incluso cuando todavía no cuentas con un sitio web."
+                    texto1="¡Trabajemos juntos!"
+                    texto2="Cuéntanos sobre tu proyecto. Podremos mostrarte ejemplos de proyectos similares para tu negocio o servicio."
                     />
                   <div
                     className="about-types__border"

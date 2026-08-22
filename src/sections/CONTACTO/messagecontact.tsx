@@ -11,13 +11,12 @@ export default function ContactPopupRight() {
         <span className="title__border title__border--accent"></span>
 
         <span className="title__font title__font--title-sm titleContact">
-          We&nbsp;are interested in&nbsp;effective <br />
-          and long-term cooperation.
+          ¡Contáctanos! Cuéntanos qué necesitas  <br />
+          y nos pondremos en contacto contigo.
           <br />
           <br />
-          We&nbsp;love complex, innovative tasks <br />
-          and ready to&nbsp;make them&nbsp;for&nbsp;you
-        </span>
+          Priorizamos una comunicación que se<br />
+adapte a las necesidades de cada cliente.        </span>
       </blockquote>
     </div>
   );

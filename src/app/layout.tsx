@@ -62,6 +62,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
         <head>
             <meta name="google-site-verification" content="9uoYUtZTuSGRKFyr7K4ShT0CAAYUxXLI9pfJ0kjg88k"/>
+            <meta name="google-site-verification" 
+            content="4M-rBEqCqgc-2h0Rf40d04W1WqTiSfJa3j0F2UYlrHA"/>
         </head>
       <body className={`${bonn.variable} ${bonnBold.variable} ${configCondensed.variable} min-h-full flex flex-col`}>
         <FallingSquares/>

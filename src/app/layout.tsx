@@ -60,6 +60,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={` h-full antialiased ${bonn.variable} ${bonnBold.variable} ${configCondensed.variable} default`}
     >
+        <head>
+            <meta name="google-site-verification" content="9uoYUtZTuSGRKFyr7K4ShT0CAAYUxXLI9pfJ0kjg88k"/>
+        </head>
       <body className={`${bonn.variable} ${bonnBold.variable} ${configCondensed.variable} min-h-full flex flex-col`}>
         <FallingSquares/>
 
